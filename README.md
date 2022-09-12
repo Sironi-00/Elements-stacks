@@ -1,2 +1,2 @@
 # Elements-stack-combination
-Trying to build things using different elements
+Different divs should produce more things, when stacked and given various properties.
