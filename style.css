@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background: #0F0F2F;
+}
+h1 {
+    text-shadow: 0 0 10px #DDD;
+}
+#root {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+    width: 90%;
+    height: 90%;
+
+    background: #123;
+    
+    box-shadow: 0 0 10px #999;
+}
+#root * {
+    position: absolute;
+}
+.el{
+    animation: spin 1.5s 1s ease-in infinite alternate;
+}
+@keyframes spin {
+    0% {}
+    100% {
+        transform: scale(0.65);
+    }
+}
+.block {
+    background-color: #EEE;
+    z-index: 1;
+}
+.a {
+    top: 5%;
+    left: 45%;
+    
+    width: 10%;
+    height: 80%;
+}
+.b {
+    top: 25%;
+    left: 30%;
+    
+    width: 40%;
+    height: 15%;
+}
+
+.obj {
+    border: 20px solid #EEE;
+    z-index: 0;
+}
+.c {
+    top: 18%;
+    left: 40%;
+
+    width: 20%;
+    height: 30%;
+}
