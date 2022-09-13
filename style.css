@@ -64,3 +64,34 @@ h1 {
     width: 20%;
     height: 30%;
 }
+
+.crest {
+    top: 1%;
+    left: 1%;
+
+    width: 20%;
+    height: 35%;
+}
+.sp {
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+    border: 2px solid #FFF;
+}
+.s1 {
+    background: #F00;
+    border-radius: 100%;
+    z-index: 0;
+}
+.s2 {
+    background: #0F0;
+    border-radius: 0% 100%;
+    z-index: 1;
+}
+.s3 {
+    background: #00F;
+    border-radius: 100% 0%;
+    z-index: 2;
+}
