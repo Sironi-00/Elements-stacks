@@ -6,6 +6,8 @@
 body {
     text-align: center;
     background: #0F0F2F;
+    width: 100vw;
+    overflow: hidden;
 }
 h1 {
     text-shadow: 0 0 2px #DDD;
@@ -65,7 +67,7 @@ h1 {
     height: 30%;
 }
 
-.crest {
+#crest {
     top: 20%;
     left: 5%;
 
@@ -94,4 +96,13 @@ h1 {
     background: #00F;
     border-radius: 100% 0%;
     z-index: 2;
+}
+#myro {
+    top: 5%;
+    right: 1%;
+
+    width: 25%;
+    height: 70%;
+
+    border: 1px solid white;
 }
