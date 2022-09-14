@@ -99,10 +99,13 @@ h1 {
 }
 #myro {
     top: 5%;
-    right: 1%;
+    left: 74%;
 
     width: 25%;
     height: 70%;
 
     border: 1px solid white;
+}
+#myro * {
+    position: relative;
 }
